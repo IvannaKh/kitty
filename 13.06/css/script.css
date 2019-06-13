@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    outline: 1px solid grey;
+}
+
+
+.logo p::first-letter{
+    color: rgba(26, 188, 156, 255);
+    font-weight: 900;
+    
+}
+.logo{
+    display: inline-block;
+}
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wraper{
+   max-width: 1260px;
+    margin: auto;
+}
+
+li{
+
+    float: left;
+    list-style: none;
+    margin-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+text-decoration: none;
+font-size: 14px;
+font-weight: 600
+
+}
+
+.menu{
+    float: right;
+}
+ a:hover{
+     color: rgba(26, 188, 156, 255);
+ }
+
+ .header{
+     margin-bottom: 105px;
+}
+
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h2::after{
+    content: "";
+  width: 160px; 
+  height: 7px; 
+  background-color: rgba(26, 188, 156, 255);
+  display: block;
+  margin: auto;
+  margin-top: 32px;
+}
+
+.box{
+    background-color: #e9f0fd;
+    width: 255px;
+    height: 322px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.box-footer{
+    background-color: #323232;
+    width: 100%;
+    line-height: 40px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-transform: uppercase;
+    /* padding: 12px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    vertical-align: auto;
+}
+
+img{
+width: 100%;
+margin-top: 20px;
+}
+
+.box-footer p,.price{
+    display: inline-block;
+}
+
+.price{
+    height: 40px;
+    width: 54px;
+    text-align: center;
+    background-color: #8c8c8c;
+    position: absolute;
+    right: 0;
+
+}
+.name_shirt{
+    padding-left: 10px;
+}
+
+.conteiner{
+    margin: auto;
+    width: 1200px;
+    padding: 22px;
+}
