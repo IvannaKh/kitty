@@ -1,0 +1,31 @@
+*{
+    outline: 1px solid gray;
+    margin: 0; 
+}
+
+.section{
+
+}
+
+li{
+    list-style: none;
+    margin-right: 13px;
+    display: inline-block;
+}    
+
+ul{
+    display: inline-block;
+}
+
+.head{
+    display: inline-block;    
+    width: 60%;
+}
+
+.header{
+    padding: 20px;
+}
+
+.background{
+    background-color: black;
+}
