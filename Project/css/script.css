@@ -3,8 +3,19 @@
     margin: 0; 
 }
 
-.section{
+.wraper{
+    width: 1200px;
+    margin: auto;
+}
 
+.section1{
+    background-image: url(/img/img@1X.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    position: relative;
+    margin-bottom: 150px;
 }
 
 li{
@@ -19,13 +30,97 @@ ul{
 
 .head{
     display: inline-block;    
-    width: 60%;
+    width: 50%;
+    color: #1ab798;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 30px;
 }
 
 .header{
-    padding: 20px;
+    padding: 25px;
+    background-color: white;
 }
 
 .background{
-    background-color: black;
+    height: 30px;
+}
+
+a{
+    color: #c3c2c3;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+.text{
+    font-size: 30px;
+    text-align: left;
+    margin-top: 196px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text2{
+    font-size: 22px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text3{
+    margin-top: 45px;
+    font-size: 16px;
+    margin-left: 50px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    background-color: #1ab798;
+    margin-top: 92px;
+    margin-left: 63px;
+    width: 210px;
+    line-height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    padding: 0;
+    margin-bottom: 60px;
+}
+
+.button{
+    margin-right: 10px;
+}
+
+.phones{
+    position: absolute;
+    bottom: -120px;
+    right: 25px;
+    margin-top: 110px;
+}
+
+.section2 {
+    text-align: center;
+}
+
+.section2 a{
+    color: rgba(26, 183, 152, 255);
+}
+
+.future{
+    display: inline-block;
+    margin: 5px;
+}
+
+.future::before,  .future::after{
+content: "";
+display: inline-block;
+background-color: #babdc1;
+width: 60px;
+height: 2px;
+margin: 0 5px 6px;
 }
