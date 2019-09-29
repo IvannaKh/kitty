@@ -1,0 +1,45 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.wrapper{
+    padding: 10px 0 20px 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+.logo{
+    font-weight: 100;
+}
+
+.logo::first-letter{
+    font-weight: 700;
+    color: #1abc9c;
+}
+
+.logo:hover{
+    color: #1abc9c;
+}
+
+.logolink{
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    list-style: none;
+}
+
+.menu > li:hover{
+color: #1abc9c;
+cursor: pointer;
+}
